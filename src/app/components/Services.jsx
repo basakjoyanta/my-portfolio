@@ -9,7 +9,7 @@ const Services = () => {
           <motion.h4 initial={{y:-20,opacity:0}} whileInView={{y:0,opacity:1}} transition={{duration:0.5,delay:0.3}} className='text-center mb-2 text-lg font-ovo'>What I offer</motion.h4>
         <motion.h2 initial={{y:-20,opacity:0}} whileInView={{y:0,opacity:1}} transition={{duration:0.5,delay:0.3}}className='text-center mb-2 text-lg  font-sans'>My Services</motion.h2>
       <motion.p initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,delay:0.7}} className='text-center max-w-2xl mx-auto mt-5 mb-12 font-semibold'>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque consequatur dolorem facere sed voluptas veniam est facilis quam sequi consectetur.
+        Delivering responsive websites, scalable APIs, efficient databases, and cloud-ready applications with expertise in modern full-stack technologies.
       </motion.p>
       <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.6,delay:0.9}}  className='grid grid-cols-4 gap-6 my-10'>
         {serviceData.map(({icon, title, description, link}, index) => (

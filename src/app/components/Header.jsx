@@ -14,7 +14,16 @@ const Header = () => {
       <motion.h1 initial={{y:-30,opacity:0}} whileInView={{y:0,opacity:1}} transition={{duration:0.8,delay:0.5}}className='text-4xl sm:text-6xl lg:text-[66px] font-sans'>
         Frontend developer & UI/UX Designer
       </motion.h1>
-      <motion.p initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.6,delay:0.7}} >Im a developer from Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora quo officiis voluptatem debitis magnam incidunt similique. Rerum illum impedit ipsa. </motion.p>
+      <motion.p initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.6,delay:0.7}} >Dynamic and ambitious B.E. graduate with a
+strong passion for technology and innovation.
+Skilled in programming and experienced in
+developing hands-on projects, with a focus on
+delivering impactful and efficient software
+solutions. Dedicated to continuous learning,
+problem-solving, and collaboration, with a keen
+interest in contributing to a forward-thinking
+team that values creativity, technical excellence,
+and growth.</motion.p>
 
     <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
         <motion.a initial={{y:30,opacity:0}} whileInView={{y:0,opacity:1}} transition={{duration:0.6,delay:1}} className='px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2 dark:bg-transparent'href="#contact">Contact Me <Image src={assets.right_arrow_white} alt='' className='rounded-full w-4'/></motion.a>
