@@ -39,7 +39,7 @@ const Contact = () => {
         </motion.h2>
 
         <motion.p  initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:1}}className='text-center max-w-2xl mx-auto mt-5 mb-12 font-semibold'>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum veritatis nisi velit. Repellat rerum officiis nemo quis commodi corporis incidunt.
+            Let's connect! I'm always open to new opportunities, collaborations, and projects where I can deliver impactful full-stack solutions.
         </motion.p>
 
   <motion.form  initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,delay:0.9}} onSubmit={onSubmit} className='max-w-2xl mx-auto'>

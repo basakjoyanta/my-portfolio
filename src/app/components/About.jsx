@@ -12,7 +12,16 @@ const About = ({isDarkmode}) => {
             <Image src={assets.user_image} alt="user" className="w-full rounded-3xl"/>
         </motion.div>
         <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.6,delay:0.8}} className='flex-1'>
-            <p className='mb-10 max-w-2xl font-ovo'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus doloremque aliquam dicta similique id pariatur ad qui veritatis obcaecati totam! Quas numquam minima animi doloremque minus consequuntur ad rerum consectetur!
+            <p className='mb-10 max-w-2xl font-ovo'>Dynamic and ambitious B.E. graduate with a
+strong passion for technology and innovation.
+Skilled in programming and experienced in
+developing hands-on projects, with a focus on
+delivering impactful and efficient software
+solutions. Dedicated to continuous learning,
+problem-solving, and collaboration, with a keen
+interest in contributing to a forward-thinking
+team that values creativity, technical excellence,
+and growth.
             </p>
             <motion.ul initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.8,delay:1}} className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl'>
                 {infoList.map(({icon,iconDark,title,description},index)=>(

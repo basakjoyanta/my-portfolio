@@ -14,7 +14,7 @@ const Work = ({isDarkmode}) => {
         </motion.h2>
 
         <motion.p  initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,delay:0.7}}  className='text-center max-w-2xl mx-auto mt-5 mb-12 font-semibold'>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum veritatis nisi velit. Repellat rerum officiis nemo quis commodi corporis incidunt.
+            I have developed a full-stack AI chat application, hospital management system, and responsive 3D animation websites designed for seamless performance across mobile and web platforms.
         </motion.p>
         <motion.div  initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.6,delay:0.9}} className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 my-10 gap-5 dark:text-amber-700'>
           {workData.map((project, index) => (

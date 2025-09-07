@@ -27,7 +27,7 @@ and growth.</motion.p>
 
     <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
         <motion.a initial={{y:30,opacity:0}} whileInView={{y:0,opacity:1}} transition={{duration:0.6,delay:1}} className='px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2 dark:bg-transparent'href="#contact">Contact Me <Image src={assets.right_arrow_white} alt='' className='rounded-full w-4'/></motion.a>
-        <motion.a  initial={{y:30,opacity:0}} whileInView={{y:0,opacity:1}} transition={{duration:0.6,delay:1.2}}className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 dark:text-black bg-white' download href="/sample-resume.pdf "> My Resume Me <Image src={assets.right_arrow_white} alt='' className=' rounded-full w-4'/></motion.a>
+        <motion.a  initial={{y:30,opacity:0}} whileInView={{y:0,opacity:1}} transition={{duration:0.6,delay:1.2}}className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 dark:text-black bg-white' download href="/Modern Professional CV Resume.pdf "> My Resume Me <Image src={assets.right_arrow_white} alt='' className=' rounded-full w-4'/></motion.a>
     </div>
     
     </div>
